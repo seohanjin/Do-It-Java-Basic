@@ -1,0 +1,15 @@
+package Chapter05.classpart;
+
+public class PersonTest {
+
+    public static void main(String[] args) {
+        Person person = new Person();   // new Person() > 생성자
+
+        Person personKim = new Person();
+        personKim.name = "김유신";
+        personKim.weight = 85.5F;
+        personKim.height = 180.0F;
+
+        Person personLee = new Person("이순신", 175, 75);
+    }
+}
