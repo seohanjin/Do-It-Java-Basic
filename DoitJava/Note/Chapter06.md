@@ -103,3 +103,47 @@ Chapter06.Person@3ac3fd8b
 [참조] <br>
 https://yaboong.github.io/java/2018/05/26/java-memory-management/ <br>
 http://ojc.asia/bbs/board.php?bo_table=LecJava&wr_id=520
+
+## 10/16 (일)
+###static 변수란?<br>
+- 다른 용어로 `정적 변수` 라고도 한다.
+- 클래스 내부에 선언하지만, 프로그램이 실행되어 메모리에 올라갔을 때 딱 한 번 메모리 공간이 할당된다.
+  - 일반 멤버 변수는 인스턴스가 생성될 때마다 새로 생성되지만, static으로 선언한 변수는 인스턴스 생성과 상관없이 먼저 생성되고 그 값을 모든 인스턴스가 공유하게 된다.
+- 값은 모든 인스턴스가 공유한다.
+- static 변수를 클래스에 기반한 변수라고 해서 `클래스 변수`라고도 한다.
+
+![img_1.png](img_1.png)
+static으로 선언한 serialNum 변수는 모든 인스턴스가 공유하기 때문에 두 개의 참조변수가 동일한 변수의 메모리를 가리킨다.
+
+####클래스 메서드
+- static 변수를 위한 메서드 `static 메서드` 또는 `클래스 메서드`라고 한다.
+
+```java
+package Chapter06.staticEx;
+
+public class Student2 {
+    private static int serialNum = 1000;
+    public String studentName;
+    
+
+    public static int getSerialNum() {
+        int i = 10;
+        studentName = "이지원";    // 오류 발생
+        return serialNum;
+    }
+
+}
+```
+`getSerialNum()`메서드는 static 예약어를 붙인 클래스 메서드이다.
+- int i = 10;
+    - 이 변수는 메서드 내부에서 선언했다. `지역 변수`이다. 지역 변수는 메서드가 호출될 때 메모리에 생성되어 메서드가 끝나면 사라지는 변수이다. 따라서 getSerialNum() 메서드 내부에서만 사용이 가능하다.
+    
+- return serialNum;
+    - serialNum 변수는 static 변수이다. 그러므로 클래스 메서드인 getSerialNum() 메서드 내부에서도 사용이 가능하다.
+    
+- studentName = "이지원";
+    - 이 변수는 Student2클래스의 멤버 변수로, 인스턴스가 생성될 때 만들어지는 인스턴스 변수이기 때문에 오류가 발생한다.
+    
+> 정리: 클래서 메서드(`getSerialNum()`) 내부에서 지역 변수(`int i = 10`)와 클래스 변수(`serialNum`)는 사용할 수 있지만 인스턴스 변수(`studentName`)은 사용할 수 없다. 
+> <br>반대로 일반 메서드에서 클래스 변수를 사용하는 것은 전혀 문제가 되지 않는다. <br>
+> 왜냐하면, 일반 메서드는 인스턴스가 생성될 때 호출하는 메서드이고, 클래스 변수는 이미 만들어진 변수이기 때문에 일반 메서드에서도 클래스 변수를 호출할 수 있다.

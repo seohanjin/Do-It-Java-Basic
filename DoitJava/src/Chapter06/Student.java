@@ -1,11 +1,24 @@
 package Chapter06;
 
 public class Student {
+    public static int serialNum = 1000;
     public String studentName;
     public int grade;
     public int money;
 
-    public Student(String studentName, int money) {gi
+    public Student() {
+
+    }
+
+    public String getStudentName() {
+        return studentName;
+    }
+
+    public void setStudentName(String name) {
+        studentName = name;
+    }
+
+    public Student(String studentName, int money) {
         this.studentName = studentName;
         this.money = money;
     }
