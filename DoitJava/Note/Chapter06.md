@@ -147,3 +147,74 @@ public class Student2 {
 > 정리: 클래서 메서드(`getSerialNum()`) 내부에서 지역 변수(`int i = 10`)와 클래스 변수(`serialNum`)는 사용할 수 있지만 인스턴스 변수(`studentName`)은 사용할 수 없다. 
 > <br>반대로 일반 메서드에서 클래스 변수를 사용하는 것은 전혀 문제가 되지 않는다. <br>
 > 왜냐하면, 일반 메서드는 인스턴스가 생성될 때 호출하는 메서드이고, 클래스 변수는 이미 만들어진 변수이기 때문에 일반 메서드에서도 클래스 변수를 호출할 수 있다.
+
+### 변수 유효 범위
+1. 지역 변수의 유효 범위<br>
+함수나 메서드 내부에 선언하기 때문에 함수 밖에서는 사용할 수 없다. 즉 하나의 함수에 선언한 지역 변수는 다른 함수에서 사용할 수 없다.
+   지역 변수가 생성되는 메모리를 `스택`이라고 한다. 스택에 생성되는 지역 변수는 함수가 호출될 때 생성되었다가 함수가 반환되면 할당되었던 메모리 공간이 해제되면서 함께 없어진다.
+   
+2. 멤버 변수의 유효 범위<br>
+멤버 변수는 인스턴스 변수라고 한다. 클래스가 생성될 때 `힙 메모리`에 생성되는 변수이다. 힙에 생성된 인스턴스가 `가비지 컬렉터`에 의해 수거되면 메모리에서 사라진다. 따라서 클래스 내부의 여러 메서드에서 사용할 변수는 멤버 변수로 선언하는 것이 좋다.
+   
+3. static 변수의 유효 범위<br>
+사용자가 프로그램을 실행하면 메모리에 프로그램이 상주한다. 이때 프로그램 영역 중에 `데이터 영역`이 있다. 이 영역에는 상수나 문자열, static 변수가 생성된다.<br>
+   인스턴스 변수는 객체가 생성되는 문장 즉 `new`가 생성되지만, static 변수는 클래스 생성과 상관 없이 처음부터 데이터 영역 메모리에 생성된다.
+   
+### 싱글톤 패턴이란?
+객체 지향 프로그램에서 인스턴스를 단 하나만 생성하는 디자인 패턴을 `싱글톤 패턴`이라고 한다.
+
+#### 구현하기
+
+>1단계 : private 생성자 만들기
+```java
+package Chapter06.singleton;
+
+public class Company {
+    private Company() { }
+}
+```
+생성자가 하나도 없는 클래스는 컴파일러가 자동으로 디폴트 생성자 코드를 넣어 준다. 그런데 만들어주는 디폴트 생성자는 항상 public이다.<br>
+public이면 외부 클래스에서 인스턴스를 여러 개 생성할 수 있다. 따라서 싱글톤 패턴에서는 생성자를 반드시 명시적으로 만들고 그 접근 제어자를 private으로 지정해야 한다.
+
+>2단계 : 클래스 내부에 static으로 유일한 인스턴스 생성하기
+```java
+package Chapter06.singleton;
+
+public class Company {
+    private Company() { }
+    private static Company instance = new Company();    //유일하게 생성한 인스턴스
+}
+```
+1단계에서 외부 인스턴스를 생성할 수 없도록 만들었다. 하지만 우리가 프로그램에서 사용할 인스턴스 하나는 필요하다. 따라서 Company 클래스 내부에서 하나으 인스턴스를 생성한다. 이 인스턴스가 프로그램 전체에서 사용할 유일한 인스턴스가 된다. 또한 private으로 선언하여 외부에서 이 인스턴스에 접근하지 못하도록 제한해야 인스턴스 오류를 방지할 수 있다.
+
+>3단계 : 외부에서 참조할 수 있는 public 메서드 만들기
+```java
+package Chapter06.singleton;
+
+public class Company {
+    private Company() { }
+    private static Company instance = new Company();    //유일하게 생성한 인스턴스
+    
+    public static Company getInstance() {
+        if (instance == null) {
+            instance = new Company();
+        }
+        
+        return instance;
+    }
+}
+```
+private으로 선언한 유일한 인스턴스를 외부에서도 사용할 수 있도록 설정해야 한다. 이때 인스턴스를 반환하는 메서드는 반드시 static으로 선언해야 한다. 왜냐하면 getInstance() 메서드는 인스턴스 생성과 상관없이 호출할 수 있어야 하기 때문이다.
+
+>4단계 : 실제로 사용하는 코드 만들기
+```java
+package Chapter06.singleton;
+
+public class ComapnyTest {
+    public static void main(String[] args) {
+        Company myCompany1 = Company.getInstance();
+        Company myCompany2 = Company.getInstance();
+        System.out.println(myCompany1 == myCompany2);
+    }
+}
+```
