@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9eb6924d-dbcf-4841-968a-9ec25f636393" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter06/singleton/ComapnyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter06/singleton/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter06/singletonTest/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter06/singletonTest/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter06/singletonTest/CarFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Note/Chapter07.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter07/ArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter07/ArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter07/ArrayTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter07/ArrayTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter07/Book/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter07/Book/BookArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter07/Book/BookArray2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter07/CharArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter07/Copy/ArrayCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter07/Copy/ObjectCopy1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter07/Copy/ObjectCopy2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter07/Copy/ObjectCopy3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter07/EnhancedForLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter07/Ex/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter07/Ex/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter07/Ex/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter07/TwoDimension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter07/TwoDimension2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Note/Chapter06.md" beforeDir="false" afterPath="$PROJECT_DIR$/Note/Chapter06.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,17 +70,20 @@
       <recent name="C:\Study\DoitJava\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Chapter07" />
+      <recent name="Chapter07.Copy" />
+      <recent name="Chapter07.Book" />
       <recent name="Chapter06.staticEx" />
       <recent name="Chapter05.classpart" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarFactoryTest">
-    <configuration name="CarFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter06.singletonTest.CarFactoryTest" />
+  <component name="RunManager" selected="Application.StudentTest">
+    <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter07.ArrayListTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter06.singletonTest.*" />
+          <option name="PATTERN" value="Chapter07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComapnyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter06.singleton.ComapnyTest" />
+    <configuration name="EnhancedForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter07.EnhancedForLoop" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter06.singleton.*" />
+          <option name="PATTERN" value="Chapter07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter06.staticEx.StudentTest1" />
+    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter07.Ex.StudentTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter06.staticEx.*" />
+          <option name="PATTERN" value="Chapter07.Ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter06.staticEx.StudentTest2" />
+    <configuration name="TwoDimension" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter07.TwoDimension" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter06.staticEx.*" />
+          <option name="PATTERN" value="Chapter07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter06.staticEx.StudentTest4" />
+    <configuration name="TwoDimension2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter07.TwoDimension2" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter06.staticEx.*" />
+          <option name="PATTERN" value="Chapter07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CarFactoryTest" />
-        <item itemvalue="Application.ComapnyTest" />
-        <item itemvalue="Application.StudentTest4" />
-        <item itemvalue="Application.StudentTest2" />
-        <item itemvalue="Application.StudentTest1" />
+        <item itemvalue="Application.StudentTest" />
+        <item itemvalue="Application.ArrayListTest" />
+        <item itemvalue="Application.TwoDimension2" />
+        <item itemvalue="Application.TwoDimension" />
+        <item itemvalue="Application.EnhancedForLoop" />
       </list>
     </recent_temporary>
   </component>
@@ -158,5 +175,16 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chapter07/Book/Book.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
