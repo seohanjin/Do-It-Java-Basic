@@ -2,27 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9eb6924d-dbcf-4841-968a-9ec25f636393" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Note/Chapter07.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter07/ArrayListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter07/ArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter07/ArrayTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter07/ArrayTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter07/Book/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter07/Book/BookArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter07/Book/BookArray2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter07/CharArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter07/Copy/ArrayCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter07/Copy/ObjectCopy1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter07/Copy/ObjectCopy2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter07/Copy/ObjectCopy3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter07/EnhancedForLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter07/Ex/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter07/Ex/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter07/Ex/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter07/TwoDimension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter07/TwoDimension2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Note/Chapter08.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Note/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter08/v1/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter08/v1/VIPCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter08/v2/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter08/v2/VIPCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter08/v3/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter08/v3/CustomerTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter08/v3/CustomerTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter08/v3/VIPCustomer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +47,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Chapter08/v3" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.26206896" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Study\DoitJava\src\Chapter08\v3" />
+      <recent name="C:\Study\DoitJava\src\Chapter08\v2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Study\DoitJava" />
       <recent name="C:\Study\DoitJava\src\Note" />
@@ -77,7 +71,7 @@
       <recent name="Chapter05.classpart" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentTest">
+  <component name="RunManager" selected="Application.CustomerTest2">
     <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chapter07.ArrayListTest" />
       <module name="DoitJava" />
@@ -91,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnhancedForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter07.EnhancedForLoop" />
+    <configuration name="CustomerTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter08.v3.CustomerTest2" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter07.*" />
+          <option name="PATTERN" value="Chapter08.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomerTest2" />
         <item itemvalue="Application.StudentTest" />
         <item itemvalue="Application.ArrayListTest" />
         <item itemvalue="Application.TwoDimension2" />
         <item itemvalue="Application.TwoDimension" />
-        <item itemvalue="Application.EnhancedForLoop" />
       </list>
     </recent_temporary>
   </component>
