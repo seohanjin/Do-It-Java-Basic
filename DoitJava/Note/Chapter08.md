@@ -37,3 +37,24 @@ public VIPCustomer() {
 ```
 컴파일러가 자동으로 추가하는 코드이다. (super)
 상위 클래스의 Customer()가 호출된다.
+
+오버라이딩
+---
+```java
+Customer customerWho = new VIPCustomer(10010, "Who", 100);
+int price = customerWho.calcPrice(10000);
+customerWho.showCustomerInfo();
+```
+위 코드에서 calcPrice() 메서드는 `VIPCustomer`클래스의 메서드가 호출된다.<br>
+여기서 `Customer 클래스`의 `calcPrice()`와 `VIPCustomer 클래스`의 `calcPrice() (재정의됨)`는 다른 메서드 주소를 가지고 있다.
+반면, 재정의 되지 않은 `showCustomerInfo()`는 같은 메서드 주소를 가지고 있다.
+
+다형성
+---
+하나의 코드가 여러가지 자료형으로 구현되어 실행되는 것.<br>
+정보은닉, 상속과 더불러 객체지향 프로그래밍의 가장 큰 특징 중 하나<br>
+객체지향 프로그래밍의 유연성, 재활용성, 유지보수성에 기본이 되는 특징이다.
+
+다운캐스팅
+---
+상위 클래스로 형 변환되었던 하위 클래스를 다시 원래 자료형으로 형 변환하는 것을 다운 캐스팅 이라고 한다.
