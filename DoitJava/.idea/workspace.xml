@@ -2,29 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9eb6924d-dbcf-4841-968a-9ec25f636393" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter08/v4/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter08/v4/CustomerTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter08/v4/CustomerTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter08/v4/OverridingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter08/v4/VIPCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter08/v5/AnimalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter08/v5/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter08/v5/CustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter08/v5/GoldCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter08/v5/VIPCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter09/v1/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter09/v1/ComputerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter09/v1/DeskTop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter09/v1/MyNoteBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter09/v1/NoteBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter09/v2/AICar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter09/v2/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter09/v2/CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter09/v2/ManualCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Note/Chapter09.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter09/v3/AdvancedLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter09/v3/BeginnerLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter09/v3/MainBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter09/v3/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter09/v3/PlayerLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter09/v3/SuperLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter09/v4/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter09/v5/AdvancedLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter09/v5/BeginnerLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter09/v5/MainBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter09/v5/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter09/v5/PlayerLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter09/v5/SuperLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v1/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v1/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v1/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v1/CompleteCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v2/LeastJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v2/PriorityAllocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v2/RoundRobin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v2/Scheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v2/SchedulerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Note/Chapter08.md" beforeDir="false" afterPath="$PROJECT_DIR$/Note/Chapter08.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DoitJava/Chapter08/v3/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DoitJava/Chapter08/v3/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DoitJava/Chapter08/v3/VIPCustomer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DoitJava/Chapter08/v3/VIPCustomer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -77,20 +79,20 @@
       <recent name="C:\Study\DoitJava\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Chapter09.v5" />
+      <recent name="Chapter09.v3" />
       <recent name="Chapter08.v5" />
       <recent name="Chapter07" />
       <recent name="Chapter07.Copy" />
-      <recent name="Chapter07.Book" />
-      <recent name="Chapter06.staticEx" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarTest">
-    <configuration name="AnimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter08.v5.AnimalTest" />
+  <component name="RunManager" selected="Application.SchedulerTest">
+    <configuration name="CalculatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter10.v1.CalculatorTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter08.v5.*" />
+          <option name="PATTERN" value="Chapter10.v1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter08.v5.CustomerTest" />
+    <configuration name="MainBoard (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter09.v5.MainBoard" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter08.v5.*" />
+          <option name="PATTERN" value="Chapter09.v5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter08.v3.CustomerTest2" />
+    <configuration name="MainBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter09.v3.MainBoard" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter08.v3.*" />
+          <option name="PATTERN" value="Chapter09.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverridingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter08.v4.OverridingTest" />
+    <configuration name="SchedulerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter10.v2.SchedulerTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter08.v4.*" />
+          <option name="PATTERN" value="Chapter10.v2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SchedulerTest" />
+        <item itemvalue="Application.CalculatorTest" />
+        <item itemvalue="Application.MainBoard (1)" />
+        <item itemvalue="Application.MainBoard" />
         <item itemvalue="Application.CarTest" />
-        <item itemvalue="Application.AnimalTest" />
-        <item itemvalue="Application.CustomerTest" />
-        <item itemvalue="Application.OverridingTest" />
-        <item itemvalue="Application.CustomerTest2" />
       </list>
     </recent_temporary>
   </component>
