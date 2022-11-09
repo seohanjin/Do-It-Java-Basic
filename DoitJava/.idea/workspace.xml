@@ -2,29 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9eb6924d-dbcf-4841-968a-9ec25f636393" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Note/Chapter09.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter09/v3/AdvancedLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter09/v3/BeginnerLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter09/v3/MainBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter09/v3/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter09/v3/PlayerLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter09/v3/SuperLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter09/v4/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter09/v5/AdvancedLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter09/v5/BeginnerLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter09/v5/MainBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter09/v5/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter09/v5/PlayerLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter09/v5/SuperLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v1/Calc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v1/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v1/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v1/CompleteCalc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v2/LeastJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v2/PriorityAllocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v2/RoundRobin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v2/Scheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v2/SchedulerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v3/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v3/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v3/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v3/CompleteCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/ExtendsInterface/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/ExtendsInterface/MyClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/ExtendsInterface/MyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/ExtendsInterface/X.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/ExtendsInterface/Y.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/OneInterface/Buy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/OneInterface/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/OneInterface/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/OneInterface/Sell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/UseTogether/BookShelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/UseTogether/BookShelfTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/UseTogether/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/UseTogether/Shelf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,20 +73,20 @@
       <recent name="C:\Study\DoitJava\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Chapter10.v3" />
       <recent name="Chapter09.v5" />
       <recent name="Chapter09.v3" />
       <recent name="Chapter08.v5" />
       <recent name="Chapter07" />
-      <recent name="Chapter07.Copy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SchedulerTest">
-    <configuration name="CalculatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter10.v1.CalculatorTest" />
+  <component name="RunManager" selected="Application.BookShelfTest">
+    <configuration name="BookShelfTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter10.v4.UseTogether.BookShelfTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter10.v1.*" />
+          <option name="PATTERN" value="Chapter10.v4.UseTogether.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter09.v2.CarTest" />
+    <configuration name="CalculatorTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter10.v3.CalculatorTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter09.v2.*" />
+          <option name="PATTERN" value="Chapter10.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainBoard (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter09.v5.MainBoard" />
+    <configuration name="CustomerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter10.v4.OneInterface.CustomerTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter09.v5.*" />
+          <option name="PATTERN" value="Chapter10.v4.OneInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter09.v3.MainBoard" />
+    <configuration name="MyClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter10.v4.ExtendsInterface.MyClassTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter09.v3.*" />
+          <option name="PATTERN" value="Chapter10.v4.ExtendsInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BookShelfTest" />
+        <item itemvalue="Application.MyClassTest" />
+        <item itemvalue="Application.CustomerTest" />
+        <item itemvalue="Application.CalculatorTest (1)" />
         <item itemvalue="Application.SchedulerTest" />
-        <item itemvalue="Application.CalculatorTest" />
-        <item itemvalue="Application.MainBoard (1)" />
-        <item itemvalue="Application.MainBoard" />
-        <item itemvalue="Application.CarTest" />
       </list>
     </recent_temporary>
   </component>
