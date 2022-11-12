@@ -2,23 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9eb6924d-dbcf-4841-968a-9ec25f636393" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v3/Calc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v3/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v3/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v3/CompleteCalc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/ExtendsInterface/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/ExtendsInterface/MyClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/ExtendsInterface/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/ExtendsInterface/X.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/ExtendsInterface/Y.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/OneInterface/Buy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/OneInterface/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/OneInterface/CustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/OneInterface/Sell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/UseTogether/BookShelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/UseTogether/BookShelfTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/UseTogether/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/v4/UseTogether/Shelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Note/Chapter11.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/v1/EqualsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/v1/EqualsTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/v1/EqualsTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/v1/HashCodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/v1/ObjectCloneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/v1/StringEquals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/v1/ToStringEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/v2/StringBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/v2/StringTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/v2/StringTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/v4/ClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/v4/NewinstanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/v4/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/v4/SpringClassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Chapter08/v4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Chapter11/v1" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.26206896" />
@@ -63,6 +61,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Study\DoitJava\src\Chapter11\v1" />
       <recent name="C:\Study\DoitJava\src\Chapter08\v4" />
       <recent name="C:\Study\DoitJava\src\Chapter08\v3" />
       <recent name="C:\Study\DoitJava\src\Chapter08\v2" />
@@ -80,13 +79,13 @@
       <recent name="Chapter07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BookShelfTest">
-    <configuration name="BookShelfTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter10.v4.UseTogether.BookShelfTest" />
+  <component name="RunManager" selected="Application.NewinstanceTest">
+    <configuration name="ClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter11.v4.ClassTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter10.v4.UseTogether.*" />
+          <option name="PATTERN" value="Chapter11.v4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter10.v3.CalculatorTest" />
+    <configuration name="NewinstanceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter11.v4.NewinstanceTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter10.v3.*" />
+          <option name="PATTERN" value="Chapter11.v4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter10.v4.OneInterface.CustomerTest" />
+    <configuration name="SpringClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter11.v4.SpringClassTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter10.v4.OneInterface.*" />
+          <option name="PATTERN" value="Chapter11.v4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter10.v4.ExtendsInterface.MyClassTest" />
+    <configuration name="StringBuilderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter11.v2.StringBuilderTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter10.v4.ExtendsInterface.*" />
+          <option name="PATTERN" value="Chapter11.v2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SchedulerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter10.v2.SchedulerTest" />
+    <configuration name="StringTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter11.v2.StringTest2" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter10.v2.*" />
+          <option name="PATTERN" value="Chapter11.v2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BookShelfTest" />
-        <item itemvalue="Application.MyClassTest" />
-        <item itemvalue="Application.CustomerTest" />
-        <item itemvalue="Application.CalculatorTest (1)" />
-        <item itemvalue="Application.SchedulerTest" />
+        <item itemvalue="Application.NewinstanceTest" />
+        <item itemvalue="Application.SpringClassTest" />
+        <item itemvalue="Application.ClassTest" />
+        <item itemvalue="Application.StringBuilderTest" />
+        <item itemvalue="Application.StringTest2" />
       </list>
     </recent_temporary>
   </component>
