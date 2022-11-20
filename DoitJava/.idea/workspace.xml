@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9eb6924d-dbcf-4841-968a-9ec25f636393" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/Chapter12.md" beforeDir="false" afterPath="$PROJECT_DIR$/Note/Chapter12.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,40 +66,14 @@
       <recent name="C:\Study\DoitJava\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Chapter12.v4" />
       <recent name="Chapter12.v1.abs" />
       <recent name="Chapter10.v3" />
       <recent name="Chapter09.v5" />
       <recent name="Chapter09.v3" />
-      <recent name="Chapter08.v5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericMethod">
-    <configuration name="GenericMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter12.v1.step3.GenericMethod" />
-      <module name="DoitJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chapter12.v1.step3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenericPrinterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter12.v1.step1.GenericPrinterTest" />
-      <module name="DoitJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chapter12.v1.step2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MemberTreeSetTest">
     <configuration name="GenericPrinterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chapter12.v1.step2.GenericPrinterTest" />
       <module name="DoitJava" />
@@ -112,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewinstanceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter11.v4.NewinstanceTest" />
+    <configuration name="HashSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter12.v4.HashSetTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter11.v4.*" />
+          <option name="PATTERN" value="Chapter12.v4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +100,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter11.v4.SpringClassTest" />
+    <configuration name="MemberHashSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter12.v4.MemberHashSetTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter11.v4.*" />
+          <option name="PATTERN" value="Chapter12.v4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberTreeSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter12.v4.MemberTreeSetTest" />
+      <module name="DoitJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter12.v4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter12.v2.QueueTest" />
+      <module name="DoitJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter12.v2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter12.v4.TreeSetTest" />
+      <module name="DoitJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter12.v4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenericMethod" />
-        <item itemvalue="Application.GenericPrinterTest (1)" />
-        <item itemvalue="Application.GenericPrinterTest" />
-        <item itemvalue="Application.NewinstanceTest" />
-        <item itemvalue="Application.SpringClassTest" />
+        <item itemvalue="Application.MemberTreeSetTest" />
+        <item itemvalue="Application.MemberHashSetTest" />
+        <item itemvalue="Application.TreeSetTest" />
+        <item itemvalue="Application.HashSetTest" />
+        <item itemvalue="Application.QueueTest" />
       </list>
     </recent_temporary>
   </component>
