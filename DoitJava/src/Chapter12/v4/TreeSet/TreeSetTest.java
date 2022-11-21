@@ -1,4 +1,4 @@
-package Chapter12.v4;
+package Chapter12.v4.TreeSet;
 
 import java.util.TreeSet;
 
@@ -12,5 +12,9 @@ public class TreeSetTest {
         for (String str : treeSet) {
             System.out.println(str);
         }
+
+//        강감찬
+//        이순신
+//        홍길동
     }
 }

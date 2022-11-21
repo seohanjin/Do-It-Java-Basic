@@ -1,8 +1,6 @@
-package Chapter12.v4;
+package Chapter12.v4.TreeSet;
 
-import java.util.Objects;
-
-public class Member {
+public class Member implements Comparable<Member>{
     private int memberId;
     private String memberName;
 
@@ -46,5 +44,13 @@ public class Member {
     @Override
     public String toString() {
         return memberName + " 회원님의 아이디는 " + memberId + "입니다.";
+    }
+
+//    추가한 회원 아이디와 매개변수로 받은 회원 아이디를 비교함.
+//    매개변수는 기존 값
+    @Override
+    public int compareTo(Member member) {
+        return (this.memberId - member.memberId);
+
     }
 }

@@ -1,4 +1,4 @@
-package Chapter12.v4;
+package Chapter12.v4.HashSet;
 
 import java.util.HashSet;
 
@@ -13,5 +13,7 @@ public class HashSetTest {
 
         System.out.println(hashSet);
 
+//        [홍연의, 박현정, 강감찬, 임정순]
+//        두 번 추가 되지 않음.
     }
 }

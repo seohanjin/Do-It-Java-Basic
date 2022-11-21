@@ -1,4 +1,4 @@
-package Chapter12.v4;
+package Chapter12.v4.HashSet;
 
 import Chapter12.v4.Member;
 
