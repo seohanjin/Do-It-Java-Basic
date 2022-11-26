@@ -4,15 +4,6 @@
     <list default="true" id="9eb6924d-dbcf-4841-968a-9ec25f636393" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Note/Chapter12.md" beforeDir="false" afterPath="$PROJECT_DIR$/Note/Chapter12.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DoitJava/Chapter12/v4/HashSetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DoitJava/Chapter12/v4/MemberHashSetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter12/v4/HashSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter12/v4/HashSet/HashSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter12/v4/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter12/v4/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter12/v4/MemberHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter12/v4/HashSet/MemberHashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter12/v4/MemberHashSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter12/v4/HashSet/MemberHashSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter12/v4/MemberTreeSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter12/v4/TreeSet/MemberTreeSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter12/v4/MemberTreeSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter12/v4/TreeSet/MemberTreeSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter12/v4/TreeSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter12/v4/TreeSet/TreeSetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Chapter11/v1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Chapter13/v1" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.26206896" />
@@ -64,6 +55,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Study\DoitJava\src\Chapter13\v1" />
       <recent name="C:\Study\DoitJava\src\Chapter11\v1" />
       <recent name="C:\Study\DoitJava\src\Chapter08\v4" />
       <recent name="C:\Study\DoitJava\src\Chapter08\v3" />
@@ -82,13 +74,13 @@
       <recent name="Chapter09.v5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ComparatorTest">
-    <configuration name="ComparatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter12.v4.TreeSet.ComparatorTest" />
+  <component name="RunManager" selected="Application.TravelTest">
+    <configuration name="ArrayListStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter13.v3.ArrayListStreamTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter12.v4.TreeSet.*" />
+          <option name="PATTERN" value="Chapter13.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter12.v4.HashSet.HashSetTest" />
+    <configuration name="IntArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter13.v3.IntArrayTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter12.v4.HashSet.*" />
+          <option name="PATTERN" value="Chapter13.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberHashSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter12.v4.HashSet.MemberHashSetTest" />
+    <configuration name="ReduceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter13.v3.ReduceTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter12.v4.HashSet.*" />
+          <option name="PATTERN" value="Chapter13.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberTreeSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter12.v4.TreeSet.MemberTreeSetTest" />
+    <configuration name="TestLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter13.v2.TestLambda" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter12.v4.HashSet.*" />
+          <option name="PATTERN" value="Chapter13.v2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter12.v4.TreeSet.TreeSetTest" />
+    <configuration name="TravelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter13.v3.TravelTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter12.v4.HashSet.*" />
+          <option name="PATTERN" value="Chapter13.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ComparatorTest" />
-        <item itemvalue="Application.MemberTreeSetTest" />
-        <item itemvalue="Application.TreeSetTest" />
-        <item itemvalue="Application.MemberHashSetTest" />
-        <item itemvalue="Application.HashSetTest" />
+        <item itemvalue="Application.TravelTest" />
+        <item itemvalue="Application.ReduceTest" />
+        <item itemvalue="Application.ArrayListStreamTest" />
+        <item itemvalue="Application.IntArrayTest" />
+        <item itemvalue="Application.TestLambda" />
       </list>
     </recent_temporary>
   </component>
