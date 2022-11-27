@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9eb6924d-dbcf-4841-968a-9ec25f636393" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Note/Chapter12.md" beforeDir="false" afterPath="$PROJECT_DIR$/Note/Chapter12.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +73,13 @@
       <recent name="Chapter09.v5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TravelTest">
-    <configuration name="ArrayListStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter13.v3.ArrayListStreamTest" />
+  <component name="RunManager" selected="Application.IDFormatTest">
+    <configuration name="ArrayExceptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter14.ArrayExceptionHandling" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter13.v3.*" />
+          <option name="PATTERN" value="Chapter14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter13.v3.IntArrayTest" />
+    <configuration name="AutoCloseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter14.AutoCloseTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter13.v3.*" />
+          <option name="PATTERN" value="Chapter14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReduceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter13.v3.ReduceTest" />
+    <configuration name="ExceptionHandling1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter14.ExceptionHandling1" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter13.v3.*" />
+          <option name="PATTERN" value="Chapter14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter13.v2.TestLambda" />
+    <configuration name="ExceptionHandling3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter14.ExceptionHandling3" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter13.v2.*" />
+          <option name="PATTERN" value="Chapter14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TravelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter13.v3.TravelTest" />
+    <configuration name="IDFormatTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter14.IDFormatTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter13.v3.*" />
+          <option name="PATTERN" value="Chapter14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TravelTest" />
-        <item itemvalue="Application.ReduceTest" />
-        <item itemvalue="Application.ArrayListStreamTest" />
-        <item itemvalue="Application.IntArrayTest" />
-        <item itemvalue="Application.TestLambda" />
+        <item itemvalue="Application.IDFormatTest" />
+        <item itemvalue="Application.AutoCloseTest" />
+        <item itemvalue="Application.ExceptionHandling3" />
+        <item itemvalue="Application.ExceptionHandling1" />
+        <item itemvalue="Application.ArrayExceptionHandling" />
       </list>
     </recent_temporary>
   </component>
