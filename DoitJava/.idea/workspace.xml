@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9eb6924d-dbcf-4841-968a-9ec25f636393" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Chapter13/v1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.26206896" />
@@ -54,32 +55,34 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Study\DoitJava" />
+      <recent name="C:\Study\DoitJava\src\Chapter15" />
       <recent name="C:\Study\DoitJava\src\Chapter13\v1" />
       <recent name="C:\Study\DoitJava\src\Chapter11\v1" />
       <recent name="C:\Study\DoitJava\src\Chapter08\v4" />
-      <recent name="C:\Study\DoitJava\src\Chapter08\v3" />
-      <recent name="C:\Study\DoitJava\src\Chapter08\v2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Study\DoitJava\src\Chapter15\v3" />
+      <recent name="C:\Study\DoitJava\src" />
+      <recent name="C:\Study\DoitJava\src\Chapter15" />
       <recent name="C:\Study\DoitJava" />
       <recent name="C:\Study\DoitJava\src\Note" />
-      <recent name="C:\Study\DoitJava\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Chapter15.v3" />
+      <recent name="Chapter15" />
       <recent name="Chapter12.v4.TreeSet" />
       <recent name="Chapter12.v4" />
       <recent name="Chapter12.v1.abs" />
-      <recent name="Chapter10.v3" />
-      <recent name="Chapter09.v5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IDFormatTest">
-    <configuration name="ArrayExceptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter14.ArrayExceptionHandling" />
+  <component name="RunManager" selected="Application.FileOutStreamTest3">
+    <configuration name="FileInputStreamTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter15.v3.FileInputStreamTest2" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter14.*" />
+          <option name="PATTERN" value="Chapter15.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoCloseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter14.AutoCloseTest" />
+    <configuration name="FileInputStreamTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter15.v3.FileInputStreamTest3" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter14.*" />
+          <option name="PATTERN" value="Chapter15.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionHandling1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter14.ExceptionHandling1" />
+    <configuration name="FileOutStreamTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter15.v3.FileOutStreamTest1" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter14.*" />
+          <option name="PATTERN" value="Chapter15.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionHandling3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter14.ExceptionHandling3" />
+    <configuration name="FileOutStreamTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter15.v3.FileOutStreamTest2" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter14.*" />
+          <option name="PATTERN" value="Chapter15.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IDFormatTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter14.IDFormatTest" />
+    <configuration name="FileOutStreamTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter15.v3.FileOutStreamTest3" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter14.*" />
+          <option name="PATTERN" value="Chapter15.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IDFormatTest" />
-        <item itemvalue="Application.AutoCloseTest" />
-        <item itemvalue="Application.ExceptionHandling3" />
-        <item itemvalue="Application.ExceptionHandling1" />
-        <item itemvalue="Application.ArrayExceptionHandling" />
+        <item itemvalue="Application.FileOutStreamTest3" />
+        <item itemvalue="Application.FileOutStreamTest2" />
+        <item itemvalue="Application.FileOutStreamTest1" />
+        <item itemvalue="Application.FileInputStreamTest3" />
+        <item itemvalue="Application.FileInputStreamTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +183,10 @@
           <line>2</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
