@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9eb6924d-dbcf-4841-968a-9ec25f636393" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,13 +75,13 @@
       <recent name="Chapter12.v1.abs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileOutStreamTest3">
-    <configuration name="FileInputStreamTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter15.v3.FileInputStreamTest2" />
+  <component name="RunManager" selected="Application.RandomAccessFileTest">
+    <configuration name="DataStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter15.v4.DataStreamTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter15.v3.*" />
+          <option name="PATTERN" value="Chapter15.v4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileInputStreamTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter15.v3.FileInputStreamTest3" />
+    <configuration name="ExternalizableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter15.v6.ExternalizableTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter15.v3.*" />
+          <option name="PATTERN" value="Chapter15.v6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileOutStreamTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter15.v3.FileOutStreamTest1" />
+    <configuration name="FileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter15.v7.FileTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter15.v3.*" />
+          <option name="PATTERN" value="Chapter15.v7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileOutStreamTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter15.v3.FileOutStreamTest2" />
+    <configuration name="RandomAccessFileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter15.v7.RandomAccessFileTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter15.v3.*" />
+          <option name="PATTERN" value="Chapter15.v7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileOutStreamTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter15.v3.FileOutStreamTest3" />
+    <configuration name="SerializationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter15.v6.SerializationTest" />
       <module name="DoitJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter15.v3.*" />
+          <option name="PATTERN" value="Chapter15.v6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileOutStreamTest3" />
-        <item itemvalue="Application.FileOutStreamTest2" />
-        <item itemvalue="Application.FileOutStreamTest1" />
-        <item itemvalue="Application.FileInputStreamTest3" />
-        <item itemvalue="Application.FileInputStreamTest2" />
+        <item itemvalue="Application.RandomAccessFileTest" />
+        <item itemvalue="Application.FileTest" />
+        <item itemvalue="Application.ExternalizableTest" />
+        <item itemvalue="Application.DataStreamTest" />
+        <item itemvalue="Application.SerializationTest" />
       </list>
     </recent_temporary>
   </component>
